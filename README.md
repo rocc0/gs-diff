@@ -1,4 +1,4 @@
-## gs-diff
+## gs-diff1
 Creates diff image from two images. Boundaries of both images should be identical.
 
 ###### Usage:
