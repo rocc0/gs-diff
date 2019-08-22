@@ -19,10 +19,8 @@ const (
 	sumRGBOnePercent = 7.6
 )
 
-/*
-	CreateDiff creates new images from diff between two images.
-	Red color set if the diff between colors of two pixels is negative, otherwise green color is set.
-*/
+// CreateDiff creates new images from diff between two images. 1
+// Red color set if the diff between colors of two pixels is negative, otherwise green color is set.
 func CreateDiff(img1, img2 image.Image) (image.Image, error) {
 	//drawing background
 	bounds1 := img1.Bounds()
